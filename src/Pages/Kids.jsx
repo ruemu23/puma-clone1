@@ -1,7 +1,6 @@
 import { useState} from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircle } from '@fortawesome/free-solid-svg-icons';
-// import { FaChevronDown, FaSlidersH, FaChevronUp} from 'react-icons/fa';
 import { FiGrid} from 'react-icons/fi';
 import { TfiLayoutGrid4Alt } from "react-icons/tfi";
 import {Filter,  KidsProductCarousel} from './Imports';

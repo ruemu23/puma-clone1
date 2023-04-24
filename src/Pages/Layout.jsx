@@ -1,8 +1,5 @@
 import React from 'react';
-// import { FaUserAlt,FaCartPlus,FaHeart,FaSearch,FaChevronRight,FaChevronLeft,FaChevronDown,FaFacebook,FaTwitter,FaInstagram,FaPinterest,FaYoutube,FaCcVisa,FaCcMastercard,FaCcDiscover,FaCcPaypal,FaApplePay,FaGooglePay,FaBitcoin,FaTimes } from 'react-icons/fa';
-// import { FiMenu } from 'react-icons/fi';
 
-// import { SiAmericanexpress } from 'react-icons/si';
 import '../css/style.css';
 
 import 'element-closest';
