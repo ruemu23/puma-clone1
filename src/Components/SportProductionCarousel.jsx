@@ -20,12 +20,7 @@ import image18 from "../images/cu18.webp";
 import image19 from "../images/cu19.webp";
 import image20 from "../images/cu20.webp";
 import image21 from "../images/cu21.webp";
-import image22 from "../images/cu22.webp";
-import image23 from "../images/cu23.webp";
-import image24 from '../images/cu24.webp';
-import image25 from "../images/cu25.webp";
-import image26 from "../images/cu26.webp";
-import image27 from "../images/cu27.webp";
+
 
 
 

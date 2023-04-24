@@ -5,9 +5,7 @@ import image3 from "../images/du3.webp";
 import image4 from "../images/du4.webp";
 import image5 from "../images/du5.webp";
 import image6 from "../images/du6.webp";
-import image7 from '../images/du7.webp';
-import image8 from "../images/du8.webp";
-import image9 from "../images/du9.webp";
+
 import image10 from "../images/du10.webp";
 import image11 from "../images/du11.webp";
 import image12 from "../images/du12.webp";

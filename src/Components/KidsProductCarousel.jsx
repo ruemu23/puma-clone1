@@ -5,12 +5,9 @@ import image3 from "../images/k3.jpeg";
 import image4 from "../images/k4.jpeg";
 import image5 from "../images/k5.webp";
 import image6 from "../images/k6.webp";
-import image7 from '../images/k7.webp';
-import image8 from "../images/k8.jpeg";
-import image9 from "../images/k9.webp";
-import image10 from "../images/k10.webp";
+
 import image11 from "../images/k11.jpeg";
-import image12 from "../images/k12.webp";
+
 import image13 from '../images/k13.webp';
 import image14 from "../images/k14.webp";
 import image15 from "../images/k15.webp";

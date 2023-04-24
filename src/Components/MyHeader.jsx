@@ -1,10 +1,10 @@
-import React, { useRef, useState, useEffect } from 'react';
-import { FaUserAlt,FaCartPlus,FaHeart,FaSearch,FaChevronRight,FaChevronLeft,FaChevronDown,FaFacebook,FaTwitter,FaInstagram,FaPinterest,FaYoutube,FaCcVisa,FaCcMastercard,FaCcDiscover,FaCcPaypal,FaApplePay,FaGooglePay,FaBitcoin,FaTimes } from 'react-icons/fa';
+import React from 'react';
+import { FaUserAlt,FaCartPlus,FaHeart,FaSearch,FaTimes } from 'react-icons/fa';
 import { FiMenu } from 'react-icons/fi';
 import logo from '../images/puma-logo-cover-removebg-preview.png'
 import ilogo from '../images/PUMA_Logo_Cat_black-removebg-preview.png'
 import { useToggleElement } from '../Common';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
   
 
 

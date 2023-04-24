@@ -5,9 +5,7 @@ import image3 from "../images/ps3.webp";
 import image4 from "../images/ps12.webp";
 import image5 from "../images/ps5.webp";
 import image6 from "../images/ps6.webp";
-import image7 from '../images/ps7.webp';
-import image8 from "../images/ps8.webp";
-import image9 from "../images/ps9.webp";
+
 import image10 from "../images/ps10.webp";
 import image11 from "../images/ps11.webp";
 import image12 from "../images/ps12.webp";

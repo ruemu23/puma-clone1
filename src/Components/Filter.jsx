@@ -1,9 +1,7 @@
 import { useState, useRef, useEffect } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import { FaChevronDown, FaSlidersH, FaChevronUp} from 'react-icons/fa';
-import { FiGrid,FiCheck } from 'react-icons/fi';
-import { TfiLayoutGrid4Alt } from "react-icons/tfi";
+import { FiCheck } from 'react-icons/fi';
+
 
 const Filter = () => {
     const [show, setShow] = useState({

@@ -1,10 +1,9 @@
-import { useState, useRef, useEffect } from "react";
+import { useState} from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircle } from '@fortawesome/free-solid-svg-icons';
-import { FaChevronDown, FaSlidersH, FaChevronUp} from 'react-icons/fa';
-import { FiGrid,FiCheck } from 'react-icons/fi';
+import { FiGrid} from 'react-icons/fi';
 import { TfiLayoutGrid4Alt } from "react-icons/tfi";
-import {Advert,Filter, GridController, MenProductCarousel} from './Imports';
+import {Filter, MenProductCarousel} from './Imports';
 
 const Men = () => {
     const [grider, setGrider] = useState(true);

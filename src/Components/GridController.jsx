@@ -1,7 +1,7 @@
 import { useState} from "react";
-import { FiGrid,FiCheck } from 'react-icons/fi';
+import { FiGrid} from 'react-icons/fi';
 import { TfiLayoutGrid4Alt } from "react-icons/tfi";
-import { useToggleElement } from "../Common";
+
 const GridController = () => {
     const [grider, setGrider] = useState(true);
 

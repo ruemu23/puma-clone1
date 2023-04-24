@@ -58,38 +58,7 @@ export const useToggleElement = () => {
   };
 
 
-  
-  // const handleMouseLeave = (setter, ref, event) => {
-  //   const target = event.target;
-  //   const relatedTarget = event.relatedTarget;
-    
-  //   if (!target) {
-  //     setter(false);
-    
 
-  //     ref.current.style.display = 'none';
-  //     return;
-  //   }
-
-  //   if (!relatedTarget) {
-     
-  //     setter(false);
-     
-  //     ref.current.style.display = 'none';
-  //     return;
-  //   }
-  
-  //   const isMouseOverSec = target.classList.contains('mysec1') || relatedTarget.closest('.mysec1') !== null;
-  //   const isMouseOverHider = target.classList.contains('hider') || relatedTarget.closest('.hider') !== null;
-  //   const isMouseOverDropdown = target.classList.contains('dropdown') || relatedTarget.closest('.dropdown') !== null;
-  //   const isMouseOverChild = ref.current && event.relatedTarget instanceof Element && ref.current.contains(event.relatedTarget);
-    
-  //   if (!isMouseOverSec && !isMouseOverHider && !isMouseOverDropdown && !isMouseOverChild) {
-  //     setter(false);
-  //     ref.current.style.display = 'none';
-  //   }
-  // };
-  
   
   
   

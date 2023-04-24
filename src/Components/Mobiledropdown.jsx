@@ -1,7 +1,7 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { FaUserAlt,FaCartPlus,FaHeart,FaSearch,FaChevronRight,FaChevronLeft,FaChevronDown,FaFacebook,FaTwitter,FaInstagram,FaPinterest,FaYoutube,FaCcVisa,FaCcMastercard,FaCcDiscover,FaCcPaypal,FaApplePay,FaGooglePay,FaBitcoin,FaTimes } from 'react-icons/fa';
-// import '../css/style.css'
-import { useToggleElement } from '../Common';
+import React, { useState, useEffect } from 'react';
+import {FaChevronRight,FaChevronLeft } from 'react-icons/fa';
+
+
 const Mobiledropdown = () => {
 
    

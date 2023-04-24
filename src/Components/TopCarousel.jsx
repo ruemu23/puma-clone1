@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-// import '../css/style.css'
+
 
 const TopCarousel = () => {
     const [slideIndex, setSlideIndex] = useState(0);
