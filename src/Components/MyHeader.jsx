@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaUserAlt,FaCartPlus,FaHeart,FaSearch,FaTimes } from 'react-icons/fa';
-import { FiMenu } from 'react-icons/fi';
+import { TfiMenu } from 'react-icons/tfi';
 import logo from '../images/puma-logo-cover-removebg-preview.png'
 import ilogo from '../images/PUMA_Logo_Cat_black-removebg-preview.png'
 import { useToggleElement } from '../Common';
@@ -594,7 +594,7 @@ const mytogglecolorChanger = props.mytogglecolorChanger;
                  <div className={`${colorChanger ? "ibala" : "bala"}`}><FaHeart /></div>
                  <div className={`${colorChanger ? "ibala" : "bala"}`}><FaCartPlus /></div>
                  <div className="mypic"  onClick={mytoggledropElement}><FaUserAlt className="fa-user-alt" /></div>
-                 <div className={`${colorChanger ? "imission" : "mission"}`} onClick={mytogglecolorChanger}><span className='sizer1'>{colorChanger ?  <FaTimes /> : <FiMenu />}</span><span className='sizer'>MENU</span></div>
+                 <div className={`${colorChanger ? "imission" : "mission"}`} onClick={mytogglecolorChanger}><span className='sizer1'>{colorChanger ?  <FaTimes /> : <TfiMenu />}</span><span className='sizer'>MENU</span></div>
             
           </div>
           

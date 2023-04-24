@@ -11,7 +11,7 @@ import profile8 from '../images/puma7.webp';
 import profile9 from '../images/puma8.webp';
 import profile10 from '../images/puma9.webp';
 import profile11 from '../images/puma12.webp';
-// import '../css/style.css'
+
 const Carousel = () => {
   
   const [scrollPosition, setScrollPosition] = useState(0);

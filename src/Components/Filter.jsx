@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { FaChevronDown, FaSlidersH, FaChevronUp} from 'react-icons/fa';
-import { FiCheck } from 'react-icons/fi';
+import { TfiCheck } from 'react-icons/tfi';
 
 
 const Filter = () => {
@@ -356,7 +356,7 @@ const Filter = () => {
     <div className={`${show.sorted ? "itecla" : "tecla"}`} onClick={() => handleOnclick('sorted')}><span>Sort By </span><span className='pusher'>{show.sorted ?  <FaChevronUp /> : <FaChevronDown />} </span></div>
     {show.sorted && (     
        <div className='regi10' ref={regiRef}> 
-       <div className="faders"><FiCheck /> Sorted by</div>
+       <div className="faders"><TfiCheck /> Sorted by</div>
        <div>Price Low To High</div>
        <div>Price High To Low</div>
        <div>Newest</div>

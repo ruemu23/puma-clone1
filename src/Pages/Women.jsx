@@ -2,7 +2,7 @@ import { useState} from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircle } from '@fortawesome/free-solid-svg-icons';
 
-import { FiGrid } from 'react-icons/fi';
+import { MdGridView } from 'react-icons/md';
 import { TfiLayoutGrid4Alt } from "react-icons/tfi";
 import {WomenCarousel,Filter} from './Imports';
 
@@ -50,7 +50,7 @@ const Women = () => {
     <div className='prodlist'>
          <div className='prodtext'>1137 PRODUCTS</div>
          <div className='prod1'>
-         <div className='grid1' onClick={() => handleGrider1()}><FiGrid /></div>
+         <div className='grid1' onClick={() => handleGrider1()}><MdGridView /></div>
              <div className='grid2' onClick={() => handleGrider()}><TfiLayoutGrid4Alt /></div>
          </div>
     </div>
