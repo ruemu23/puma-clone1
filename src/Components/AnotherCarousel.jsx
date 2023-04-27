@@ -13,7 +13,7 @@ import prof7 from '../images/pum7.webp';
 import prof8 from '../images/pum8.webp';
 import prof9 from '../images/pum9.webp';
 import prof10 from '../images/pum10.webp';
-// import '../css/style.css'
+// 
 
 const AnotherCarousel = () => {
       

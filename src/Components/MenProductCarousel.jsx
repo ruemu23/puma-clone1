@@ -160,37 +160,37 @@ const products = [
   
     return (
       <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-        <div className={`${grider ? "imgprod" : "imgprodi"}`} >
-        {showButtons && (
-            <>
-              <button className="prebtns" onClick={handlePrevClick}>
-                &#10094;
-              </button>
-              <button className="nextbtns" onClick={handleNextClick}>
-                &#10095;
-              </button>
-            </>
-          )}
-          <img src={product.images[currentImageIndex]} alt={product.name} />
-         
+      <div className={`${grider ? "imgprod" : "imgprodi"}`} >
+      {showButtons && (
+          <>
+            <button className="prebtns" onClick={handlePrevClick}>
+              &#10094;
+            </button>
+            <button className="nextbtns" onClick={handleNextClick}>
+              &#10095;
+            </button>
+          </>
+        )}
+        <img src={product.images[currentImageIndex]} alt={product.name} />
+       
+      </div>
+      <div className={`${grider ? "colorprod" : "icolorprod"}`}>
+        <p>{product.color}</p>
+      </div>
+      <div className={`${grider ? "descprod" : "idescprod"}`}>
+        <div className={`${grider ? "descr1" : "idescr1"}`}>
+          <p>{product.name}</p>
         </div>
-        <div className={`${grider ? "colorprod" : "icolorprod"}`}>
-          <p>{product.color}</p>
-        </div>
-        <div className={`${grider ? "descprod" : "idescprod"}`}>
-          <div className="descr1">
-            <p>{product.name}</p>
-          </div>
-          <div className="pricy">
-            <p>${product.price.toFixed(2)}</p>
-          </div>
-        </div>
-        <div className={`${grider ? "appprod" : "iappprod"}`}>
-          <div className={`${grider ? "booky" : "ibooky"}`}>APP EXCLUSIVE</div>
+        <div className={`${grider ? "pricy" : "ipricy"}`}>
+          <p>${product.price.toFixed(2)}</p>
         </div>
       </div>
-    );
-  };
+      <div className={`${grider ? "appprod" : "iappprod"}`}>
+        <div className={`${grider ? "booky" : "ibooky"}`}>APP EXCLUSIVE</div>
+      </div>
+    </div>
+  );
+};
   
   const MenProductCarousel = (props) => {
     const grider = props.grider;

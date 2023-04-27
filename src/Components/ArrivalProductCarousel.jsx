@@ -31,43 +31,43 @@ import image27 from "../images/cu27.webp";
 
 const products = [
   {
-    name: "PUMA x FIRST MILE Velocity NITRO 2 Women's Running Shoes",
+    name: "PUMA x FIRST MILE Velocity",
     price: 130,
     color: "1 COLOR",
     images: [image1, image2, image3],
   },
   {
-    name: "PUMA x FIRST MILE Run XX NITRO Women's Running Shoes",
+    name: "PUMA x FIRST MILE Run XX",
     price: 140,
     color: "2 COLORS",
     images: [image4, image5, image6],
   },
   {
-    name: "FUTURE ULTIMATE FG/AG Men's Soccer Cleats",
+    name: "FUTURE ULTIMATE FG/AG Men's Soccer ",
     price: 220,
     color: "2 COLORS",
     images: [image7, image8, image9],
   },
   {
-    name: "PUMA NYC Roma Skyline Flagship Men's Sneakers",
+    name: "PUMA NYC Roma Skyline Flagship",
     price: 140,
     color: "1 COLOR",
     images: [image10, image11, image12],
   },
   {
-    name: "PUMA x COCOMELON RS-X Toddlers' Sneakers ",
+    name: "PUMA x COCOMELON RS-X Toddlers'",
     price: 75,
     color: "1 COLOR",
     images: [image13, image14, image15],
   },
   {
-    name: "PUMA x COCOMELON Toddlers' Two-Piece Set ",
+    name: "PUMA x COCOMELON Toddlers'  ",
     price: 38,
     color: "1 COLOR",
     images: [image16, image17],
   },
   {
-    name: "PUMA Fit Logo Graphic Men's Training Tee",
+    name: "PUMA Fit Logo Graphic Men's ",
     price: 35,
     color: "3 COLOR",
     images: [image18, image19],
@@ -125,10 +125,10 @@ const ProductCarousel = ({ product, grider }) => {
         <p>{product.color}</p>
       </div>
       <div className={`${grider ? "descprod" : "idescprod"}`}>
-        <div className="descr1">
+        <div className={`${grider ? "descr1" : "idescr1"}`}>
           <p>{product.name}</p>
         </div>
-        <div className="pricy">
+        <div className={`${grider ? "pricy" : "ipricy"}`}>
           <p>${product.price.toFixed(2)}</p>
         </div>
       </div>

@@ -51,8 +51,8 @@ const Filter = () => {
   return (
     <div className='cate'>
     <div className='cate1'>
-    <div className='tecla1'><span> </span><span ><FaSlidersH /> </span></div>
-        <div className='regi' ref={regiRef}>
+    <div className='tecla1' ><span className="mission" style={{color: 'black'}}>Filters </span><span ><FaSlidersH /> </span></div>
+        <div className='hider regi' ref={regiRef}>
        <div className={`${show.category ? "itecla" : "tecla"}`} onClick={() => handleOnclick('category')}><span>Category </span><span className='pusher'>{show.category ?  <FaChevronUp /> : <FaChevronDown />} </span></div>
        {show.category && (   
        <div className='regi1' ref={regiRef}>  
@@ -72,7 +72,7 @@ const Filter = () => {
 
 
 
-       <div className='regi' ref={regiRef}>
+       <div className='hider regi' ref={regiRef}>
        <div className={`${show.style ? "itecla" : "tecla"}`} onClick={() => handleOnclick('style')}><span>Style </span><span className='pusher'>{show.style ?  <FaChevronUp /> : <FaChevronDown />} </span></div>
        {show.style && (     
        <div className='regi2' ref={regiRef}> 
@@ -117,7 +117,7 @@ const Filter = () => {
         </div>
 
 
-        <div className='regi' ref={regiRef}>
+        <div className='hider regi' ref={regiRef}>
 
        <div className={`${show.size ? "itecla" : "tecla"}`} onClick={() => handleOnclick('size')}><span>Size </span><span className='pusher'>{show.size ?  <FaChevronUp /> : <FaChevronDown />} </span></div>
        {show.size && (     
@@ -198,7 +198,7 @@ const Filter = () => {
 
 
 
-       <div className='regi' ref={regiRef}>
+       <div className='hider regi' ref={regiRef}>
        <div className={`${show.color ? "itecla" : "tecla"}`} onClick={() => handleOnclick('color')}><span>Color </span><span className='pusher'>{show.color ?  <FaChevronUp /> : <FaChevronDown />} </span></div>
        {show.color && (     
        <div className='regi3' ref={regiRef}> 
@@ -288,7 +288,7 @@ const Filter = () => {
        </div>
 
 
-       <div className='regi' ref={regiRef}>
+       <div className='hider regi' ref={regiRef}>
 
        <div className={`${show.price ? "itecla" : "tecla"}`} onClick={() => handleOnclick('price')}><span>Price </span><span className='pusher'>{show.price ?  <FaChevronUp /> : <FaChevronDown />} </span></div>
        {show.price && (     
@@ -317,7 +317,7 @@ const Filter = () => {
        </div>
 
 
-       <div className='regi' ref={regiRef}>
+       <div className='hider regi' ref={regiRef}>
 
        <div className={`${show.sporty ? "itecla" : "tecla"}`} onClick={() => handleOnclick('sporty')}><span>Sport </span><span className='pusher'>{show.sporty ?  <FaChevronUp /> : <FaChevronDown />} </span></div>
        {show.sporty && (     
